@@ -81,6 +81,8 @@ h6 {
   font-family: var(--font-primary);
 }
 
+
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -1350,9 +1352,9 @@ div {
 }
 
 .formas .nav-link {
-  letter-spacing: 1px;
+  /* letter-spacing: 1px; */
   display: inline-block;
-  padding: 8px 32px;
+  padding: 8px 15px; /*padding: 8px 32px;  <- Old*/
   border-radius: 5px;
   transition: 0.5s;
   -webkit-animation: fadeInUp 1s both 0.6s;
